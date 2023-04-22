@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c6f4c1-a3a1-470d-93c7-55a48bd46de8" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/FriendsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/handler/SmsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/friend/FriendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/handler/BirthdayHandlerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/handler/EmailManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/handler/FriendsHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f2c6f4c1-a3a1-470d-93c7-55a48bd46de8" name="Changes" comment="Modifying project structure and adding test cases">
+      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/BirthdayInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/FriendsInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/friend/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/friend/Friend.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/handler/BirthdayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/BirthdayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/EmailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/EmailManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/FriendsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/FriendsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/load_data.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/run.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,7 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39885056",
     "settings.editor.selected.configurable": "preferences.lookFeel",
@@ -89,6 +83,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="birthday-reminder" />
+      <target name="@@@LOCAL@@@" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681932353437</updated>
       <workItem from="1681932353997" duration="21233000" />
-      <workItem from="1682119951717" duration="18177000" />
+      <workItem from="1682119951717" duration="21095000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1682089037225</created>
@@ -117,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682089037225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modifying project structure and adding test cases">
+      <created>1682200556576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682200556576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Modifying project structure and adding test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying project structure and adding test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -137,5 +140,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/birthday_reminder$Main.ic" NAME="Main Coverage Results" MODIFIED="1682200886688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

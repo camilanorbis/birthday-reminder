@@ -1,6 +1,7 @@
 package handler;
 
 import data.friend.Friend;
+import interfaces.BirthdayInterface;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,7 +11,7 @@ import javax.mail.Message;
 import javax.mail.Transport;
 import javax.mail.MessagingException;
 
-public class BirthdayHandler {
+public class BirthdayHandler implements BirthdayInterface {
 
     public void sendBirthdayGreeting(List<Friend> friends) {
         SimpleDateFormat formatDate = new SimpleDateFormat("yyyy-MM-dd");

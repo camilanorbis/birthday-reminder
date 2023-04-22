@@ -1,6 +1,7 @@
 package handler;
 
 import data.friend.Friend;
+import interfaces.FriendsInterface;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,11 +9,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FriendsHandler {
+public class FriendsHandler implements FriendsInterface {
     private List<Friend> friends = new ArrayList<>();
 
-    //readFile method reads the flat file with friends birthdays information and populates freinds ArrayList with
+    //readFile method reads the flat file with friends birthdays information and populates friends ArrayList with
     //the information it gets from the file
+    @Override
     public void readFile(String fileName) {
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             boolean isFirstLine = true;
