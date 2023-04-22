@@ -7,6 +7,7 @@ public class Friend {
     private String firstName;
     private String dateOfBirth;
     private String email;
+    private int cellphone;
 
     public Friend (String lastName, String firstName, String dateOfBirth, String email){
         this.lastName = lastName;
@@ -45,5 +46,13 @@ public class Friend {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getCellphone() {
+        return cellphone;
+    }
+
+    public void setCellphone(int cellphone) {
+        this.cellphone = cellphone;
     }
 }
