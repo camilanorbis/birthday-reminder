@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2c6f4c1-a3a1-470d-93c7-55a48bd46de8" name="Changes" comment="Modifying project structure and adding test cases">
-      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/BirthdayInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/FriendsInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/BirthdayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/BirthdayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/handler/FriendsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/FriendsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/load_data.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/handler/SmsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/handler/SmsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/friendsBirthdays.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/friendsBirthdays.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +61,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39885056",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +101,7 @@
       <updated>1681932353437</updated>
       <workItem from="1681932353997" duration="21233000" />
       <workItem from="1682119951717" duration="21095000" />
+      <workItem from="1682205084936" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1682089037225</created>
@@ -135,7 +133,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>29</line>
+          <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
